@@ -23,7 +23,7 @@ namespace Infrastructure.Data.Repositories
 
         public async Task<IReadOnlyList<Product>> GetProductsAsync()
         {
-            return await _context.Products.ToListAsync()
+            return await _context.Products.ToListAsync();
         }
     }
 }
